@@ -1,0 +1,353 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(#ffffff, #969696);
+}
+
+.Head {
+  margin-top: 10px;
+  margin-left: -90px;
+}
+
+.Titulo {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+  background: #0000004b;
+  margin-left: -100px;
+  margin-right: -100px;
+  margin-top: -10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px #000000 solid;
+}
+
+.Form {
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: 2px solid#000000;
+}
+
+.Input_Titulo {
+  margin-bottom: -3px;
+  font-weight: 900;
+}
+
+.Input_Preenchimento {
+  margin-bottom: 10px;
+  color: #3d3d3d;
+  border: 2px solid #2e2e2e;
+  border-radius: 10px;
+  background: #f1f1f1;
+  width: 450px;
+  transition: 1s;
+}
+
+.Input_Preenchimento:focus,
+.Input_Preenchimento_Datas:focus,
+.Input_Preenchimento_Hora:focus {
+  margin-bottom: 10px;
+  color: #131313;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background: #FFFFFF;
+}
+
+.Input_Preenchimento_Datas,
+.Input_Preenchimento_Hora {
+  margin-bottom: 10px;
+  color: #3d3d3d;
+  border: 2px solid #2e2e2e;
+  border-radius: 10px;
+  background: #f1f1f1;
+  width: 50px;
+  transition: 1s;
+}
+
+.Margin_Left_Data_Dia {
+  margin-left: -20px;
+}
+
+.Margin_Left_Data_Mes {
+  margin-left: 10px;
+}
+
+.Margin_Left_Data_Ano {
+  margin-left: 40px;
+}
+
+.Margin_Left_Hora {
+  margin-left: 70px;
+}
+
+.Margin_Left_Sexo {
+  margin-left: 100px;
+}
+
+.Input_Preenchimento_Select {
+  margin-bottom: 10px;
+  color: #3d3d3d;
+  border: 2px solid #2e2e2e;
+  border-radius: 10px;
+  background: #f1f1f1;
+  width: 450px;
+  height: 30px;
+  transition: 1s;
+}
+
+.Input_Preenchimento_Select_Sexo {
+  margin-bottom: 10px;
+  color: #3d3d3d;
+  border: 2px solid #2e2e2e;
+  border-radius: 10px;
+  background: #f1f1f1;
+  width: 150px;
+  height: 30px;
+  transition: 1s;
+}
+
+.Input_Preenchimento_Select:focus,
+.Input_Preenchimento_Select_Sexo:focus {
+  margin-bottom: 10px;
+  color: #131313;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background: #FFFFFF;
+}
+
+
+.Topo {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.Logo {
+  width: 100px;
+}
+
+.Espaco {
+  margin-top: 20px;
+}
+
+.row {
+  margin-left: 5px;
+  margin-right: -50px;
+}
+
+.no_margin {
+  margin-top: 10px;
+  margin-left: -110px;
+}
+
+.Texto_1 {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #757575;
+}
+
+.Texto_2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #000000;
+}
+
+.Nome_Matricula {
+  margin-bottom: 0px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.Data_Extenso {
+  margin-bottom: -3px;
+}
+
+.Input_Data_Extenso {
+  width: 450px;
+}
+
+.Data {
+  margin-bottom: -3px;
+  text-align: center;
+  margin-left: 220%;
+}
+
+.Input_Data {
+  text-align: center;
+  width: 50px;
+  margin-left: 220%;
+}
+
+.Hora {
+  margin-bottom: -3px;
+  text-align: center;
+}
+
+.Input_Hora {
+  width: 60px;
+}
+
+.Municipio_Nascimento {
+  margin-left: 2px;
+  margin-bottom: -3px;
+}
+
+.Input_Municipio_Nascimento {
+  margin-left: 2px;
+  width: 585px;
+}
+
+.Municipio_Registro {
+  margin-bottom: -3px;
+}
+
+.Input_Municipio_Registro {
+  width: 440px;
+}
+
+.Local_Nascimento {
+  margin-left: -5px;
+  margin-bottom: -3px;
+}
+
+.Input_Local_Nascimento {
+  margin-left: -5px;
+  width: 200px;
+}
+
+.Sexo {
+  margin-bottom: -3px;
+}
+
+.Input_Sexo {
+  width: 100px;
+}
+
+.Filiacao_Pai {
+  margin-left: 45px;
+  margin-bottom: -3px;
+}
+
+.Input_Filiacao_Pai {
+  margin-left: 45px;
+  width: 265px;
+}
+
+.Filiacao_Mae {
+  margin-left: 60px;
+  margin-bottom: -3px;
+}
+
+.Input_Filiacao_Mae {
+  margin-left: 60px;
+  width: 265px;
+}
+
+.Avo_1_Pai {
+  margin-bottom: -3px;
+}
+
+.Input_Avo_1_Pai {
+  width: 315px;
+}
+
+.Avo_2_Pai {
+  margin-left: 10px;
+  margin-bottom: -3px;
+}
+
+.Input_Avo_2_Pai {
+  margin-left: 10px;
+  width: 315px;
+}
+
+.Avo_1_Mae {
+  margin-bottom: -3px;
+}
+
+.Input_Avo_1_Mae {
+  width: 315px;
+}
+
+.Avo_2_Mae {
+  margin-left: 10px;
+  margin-bottom: -3px;
+}
+
+.Input_Avo_2_Mae {
+  margin-left: 10px;
+  width: 315px;
+}
+
+.Gemeo {
+  margin-bottom: -3px;
+}
+
+.Input_Gemeo {
+  width: 100px;
+}
+
+.Nome_Matricula_Gemeo {
+  margin-left: 50px;
+  margin-bottom: -3px;
+}
+
+.Input_Nome_Matricula_Gemeo {
+  margin-left: 50px;
+  width: 540px;
+}
+
+.Data_Registro_Extenso {
+  margin-bottom: -3px;
+}
+
+.Input_Data_Registro_Extenso {
+  width: 655px;
+}
+
+.Declaracao_Nascido_Vivo {
+  margin-bottom: -3px;
+}
+
+.Input_Declaracao_Nascido_Vivo {
+  width: 655px;
+}
+
+.Observacoes_Averbacoes {
+  margin-bottom: -3px;
+}
+
+.TextArea_Observacoes_Averbacoes {
+  width: 655px;
+}
+
+.Enviar {
+  margin-left: -20px;
+  color: #FFFFFF;
+  background-color: #23a502bd;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  width: 150px;
+  transition: 1s;
+}
+
+.Limpar_Campos {
+  position: absolute;
+  left: 80px;
+  margin-right: -100px;
+  color: #FFFFFF;
+  background-color: #a50202bd;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  width: 150px;
+  transition: 1s;
+}
+
+.Enviar:hover {
+  background-color: #23a502;
+}
+
+.Limpar_Campos:hover {
+  background-color: #a50202;
+}
